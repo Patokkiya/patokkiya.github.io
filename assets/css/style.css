@@ -1,0 +1,100 @@
+:root {
+    --accent-color: #cc6600;
+    --text-color: #ffffff;
+    --background-color:#1c1c1c;
+    --element-background-color:#1c1c1c;
+}
+
+*{
+    font-family:  'Segoe UI', 'Helvetica Neue', 'Product Sans', 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 1.7vh;
+    margin-bottom: -2.4vh;
+}
+
+b {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    color: var(--text-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2vh;
+    background-image: url('../images/bg.png');
+    background-blend-mode: darken luminosity;
+    background-color: lightgray;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.panel {
+    background-color: var(--element-background-color);
+    border-radius: 0.4rem !important;
+    opacity: 0.8;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    border-radius: 0.4rem; 
+    flex-direction: row; 
+    gap: 3vh; 
+    margin-bottom: 0.5rem; 
+    padding: 0.5rem; 
+    align-items: center;
+    max-width: 80vw;
+    min-width: 40vw;
+}
+
+.bio {
+    width: 60vw;
+    height: 40vh;
+    text-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.bio > * {
+    padding: 1vw;
+}
+
+img {
+    width: 11vh;
+    height: 11vh;
+    border-radius: 0.4rem !important;
+}
+
+
+.hidden {
+    display: none;
+}
