@@ -11,17 +11,25 @@
 
 p {
     font-size: 1.7vh;
-    margin-bottom: -2.4vh;
-}
-
-b {
-    color: red;
-    background-color: transparent;
-    text-decoration: none;
+    margin-bottom: -3vh;
 }
 
 a {
     color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: orchid;
+}
+
+a:hover {
+    color: pink;
+}
+
+b {
+    color: red;
     background-color: transparent;
     text-decoration: none;
 }
